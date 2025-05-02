@@ -43,7 +43,7 @@ func TestGetAPIKey(t *testing.T) {
 				"Authorization": {""},
 			},
 			expected: "",
-			err:      errors.New("no authorization header included..."),
+			err:      errors.New("no authorization header included"),
 		},
 	}
 
